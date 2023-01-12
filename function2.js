@@ -49,7 +49,6 @@ console.log(mySum)
 // real world example
 
 function calculateSalesTax(subTotal,taxRate) {
-    const salesTax = (subTotal * taxRate).
+    const salesTax = (subTotal * taxRate).toFixed(2)
     return salesTax
 }
-
